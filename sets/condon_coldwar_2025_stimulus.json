@@ -1,0 +1,617 @@
+{
+  "set_id": "cold_war_stimulus_set",
+  "set_name": "Cold War Stimulus-Based Practice",
+  "description": "100 stimulus-based multiple choice questions covering Early Cold War, China & Korea, Red Scare, 1950s Prosperity, Poverty & Exclusion, and the Kennedy era.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A political cartoon shows Europe rebuilding factories with U.S. dollars while a shadow labeled 'Communism' retreats eastward. What policy does this cartoon support?",
+      "options": ["Truman Doctrine", "Marshall Plan", "NATO", "Containment"],
+      "correct_answer": "Marshall Plan"
+    },
+    {
+      "id": 2,
+      "question": "A map shows Eastern Europe shaded red and labeled 'Soviet Sphere of Influence.' What Cold War concept is illustrated?",
+      "options": ["Isolationism", "Iron Curtain", "Appeasement", "Detente"],
+      "correct_answer": "Iron Curtain"
+    },
+    {
+      "id": 3,
+      "question": "A speech states: 'The United States must support free peoples resisting armed minorities or outside pressures.' Which policy is described?",
+      "options": ["Marshall Plan", "Truman Doctrine", "NSC-68", "Brinkmanship"],
+      "correct_answer": "Truman Doctrine"
+    },
+    {
+      "id": 4,
+      "question": "A classroom film warns children about nuclear fallout and teaches them to hide under desks. What fear does this reflect?",
+      "options": ["Communist spies", "Economic depression", "Nuclear war", "Invasion of Europe"],
+      "correct_answer": "Nuclear war"
+    },
+    {
+      "id": 5,
+      "question": "A newspaper headline reads: 'China Falls to Communism, 1949.' Why was this event alarming to U.S. leaders?",
+      "options": ["China joined NATO", "Communism spread beyond Europe", "Trade with China ended", "Japan gained power"],
+      "correct_answer": "Communism spread beyond Europe"
+    },
+
+    {
+      "id": 6,
+      "question": "A map shows Korea divided at the 38th parallel with arrows moving south from the north. What event is depicted?",
+      "options": ["Chinese Civil War", "Korean War invasion", "Vietnam War escalation", "Japanese occupation"],
+      "correct_answer": "Korean War invasion"
+    },
+    {
+      "id": 7,
+      "question": "A headline reads: 'UN Troops Defend South Korea.' What policy goal does this action reflect?",
+      "options": ["Appeasement", "Containment", "Isolationism", "Imperialism"],
+      "correct_answer": "Containment"
+    },
+    {
+      "id": 8,
+      "question": "A cartoon shows dominoes labeled 'Vietnam,' 'Laos,' and 'Cambodia' falling. What belief is illustrated?",
+      "options": ["Brinkmanship", "Domino Theory", "MAD", "Detente"],
+      "correct_answer": "Domino Theory"
+    },
+    {
+      "id": 9,
+      "question": "A 1950s ad shows refrigerators, cars, and TVs labeled 'Made in America.' What message is conveyed?",
+      "options": ["Social equality", "Capitalist prosperity", "Military strength", "Communist efficiency"],
+      "correct_answer": "Capitalist prosperity"
+    },
+    {
+      "id": 10,
+      "question": "A map compares NATO nations with Warsaw Pact nations. What Cold War reality does this show?",
+      "options": ["Unification", "Bipolar world", "Nonalignment", "Decolonization"],
+      "correct_answer": "Bipolar world"
+    },
+
+    {
+      "id": 11,
+      "question": "A photo shows a concrete wall dividing a city with armed guards. What is the primary purpose of this structure?",
+      "options": ["Stop invasion", "Prevent emigration", "Protect democracy", "Encourage trade"],
+      "correct_answer": "Prevent emigration"
+    },
+    {
+      "id": 12,
+      "question": "A speech accuses government officials of communist ties without evidence. What term describes this behavior?",
+      "options": ["Containment", "McCarthyism", "Detente", "Appeasement"],
+      "correct_answer": "McCarthyism"
+    },
+    {
+      "id": 13,
+      "question": "A movie studio refuses to hire writers accused of communist beliefs. What practice is shown?",
+      "options": ["Censorship", "Blacklisting", "Appeasement", "Containment"],
+      "correct_answer": "Blacklisting"
+    },
+    {
+      "id": 14,
+      "question": "A loyalty oath requires teachers to swear they are not communists. What fear motivated this policy?",
+      "options": ["Economic collapse", "Communist infiltration", "Foreign invasion", "Technological change"],
+      "correct_answer": "Communist infiltration"
+    },
+    {
+      "id": 15,
+      "question": "A news article describes Alger Hiss being convicted of perjury. Why was this case significant?",
+      "options": ["Proved widespread espionage fears", "Ended the Cold War", "Cleared HUAC", "Reduced McCarthyism"],
+      "correct_answer": "Proved widespread espionage fears"
+    },
+
+    {
+      "id": 16,
+      "question": "A chart shows homeownership rising sharply after 1945. Which program contributed most?",
+      "options": ["Marshall Plan", "GI Bill", "Fair Deal", "New Frontier"],
+      "correct_answer": "GI Bill"
+    },
+    {
+      "id": 17,
+      "question": "A suburb advert excludes African American families. What practice caused this?",
+      "options": ["Integration", "Redlining", "Urban renewal", "Unionization"],
+      "correct_answer": "Redlining"
+    },
+    {
+      "id": 18,
+      "question": "A report shows cities losing tax revenue as middle-class families move outward. What trend is shown?",
+      "options": ["Industrialization", "Urban renewal", "Suburbanization", "Globalization"],
+      "correct_answer": "Suburbanization"
+    },
+    {
+      "id": 19,
+      "question": "A documentary exposes migrant farm worker poverty in the 1950s. What does this challenge?",
+      "options": ["Cold War foreign policy", "Myth of universal prosperity", "Communism", "Nuclear deterrence"],
+      "correct_answer": "Myth of universal prosperity"
+    },
+    {
+      "id": 20,
+      "question": "A map highlights Appalachia with higher poverty rates than the national average. What caused this?",
+      "options": ["Overpopulation", "Loss of mining jobs", "Immigration", "Urban sprawl"],
+      "correct_answer": "Loss of mining jobs"
+    },
+    {
+      "id": 21,
+      "question": "A photograph shows veterans attending college classes in 1947. Which Cold War-era program made this possible?",
+      "options": ["Marshall Plan", "GI Bill", "New Frontier", "Fair Deal"],
+      "correct_answer": "GI Bill"
+    },
+    {
+      "id": 22,
+      "question": "A 1950s television ad links buying household appliances with patriotism. What idea is being promoted?",
+      "options": ["Isolationism", "Consumerism as democracy", "Socialism", "Anti-war sentiment"],
+      "correct_answer": "Consumerism as democracy"
+    },
+    {
+      "id": 23,
+      "question": "A map shows U.S. naval forces positioned between China and Taiwan in 1950. Why were they placed there?",
+      "options": ["To support Mao", "To prevent invasion of Taiwan", "To start war with China", "To protect Japan"],
+      "correct_answer": "To prevent invasion of Taiwan"
+    },
+    {
+      "id": 24,
+      "question": "A headline reads: 'French Defeated at Dien Bien Phu.' What was the result of this event?",
+      "options": ["Vietnam unified", "Vietnam divided", "U.S. withdrew from Asia", "France gained territory"],
+      "correct_answer": "Vietnam divided"
+    },
+    {
+      "id": 25,
+      "question": "A speech claims nuclear war must be avoided because both sides would be destroyed. What concept is referenced?",
+      "options": ["Brinkmanship", "MAD", "Containment", "Appeasement"],
+      "correct_answer": "MAD"
+    },
+    {
+      "id": 26,
+      "question": "A 1950s fallout shelter advertisement appears in a magazine. What does this reflect?",
+      "options": ["Confidence in diplomacy", "Fear of nuclear annihilation", "Economic optimism", "Support for communism"],
+      "correct_answer": "Fear of nuclear annihilation"
+    },
+    {
+      "id": 27,
+      "question": "A political cartoon shows Uncle Sam blocking Soviet tanks with aid packages. What policy is illustrated?",
+      "options": ["Appeasement", "Containment", "Isolationism", "Detente"],
+      "correct_answer": "Containment"
+    },
+    {
+      "id": 28,
+      "question": "A court ruling grants Native Americans voting rights after being denied by states. What constitutional amendments were upheld?",
+      "options": ["1st and 2nd", "13th and 14th", "14th and 15th", "10th and 11th"],
+      "correct_answer": "14th and 15th"
+    },
+    {
+      "id": 29,
+      "question": "A map shows coal mining regions losing population between 1945 and 1965. What caused this trend?",
+      "options": ["New laws", "Mechanization", "Immigration", "Urban renewal"],
+      "correct_answer": "Mechanization"
+    },
+    {
+      "id": 30,
+      "question": "A headline reads: 'McCarthy Accuses Army Officials.' What led to McCarthy's downfall?",
+      "options": ["Election loss", "Army-McCarthy hearings", "Soviet invasion", "Supreme Court ruling"],
+      "correct_answer": "Army-McCarthy hearings"
+    },
+
+    {
+      "id": 31,
+      "question": "A photo shows integrated rock-and-roll concerts in the 1950s. What social change does this suggest?",
+      "options": ["Segregation increased", "Youth culture challenged norms", "Cold War ended", "Government promoted music"],
+      "correct_answer": "Youth culture challenged norms"
+    },
+    {
+      "id": 32,
+      "question": "A suburban development prohibits Black homeowners. What long-term effect did this have?",
+      "options": ["Economic equality", "Racial wealth gap", "Urban renewal success", "Increased integration"],
+      "correct_answer": "Racial wealth gap"
+    },
+    {
+      "id": 33,
+      "question": "A cartoon shows two men standing on piles of nuclear weapons labeled USA and USSR. What strategy is depicted?",
+      "options": ["Detente", "Arms race", "Appeasement", "Isolationism"],
+      "correct_answer": "Arms race"
+    },
+    {
+      "id": 34,
+      "question": "A report shows the USSR refused U.S. economic aid after WWII. Why?",
+      "options": ["Too expensive", "Threatened Soviet control", "Aid was insufficient", "U.S. withdrew offer"],
+      "correct_answer": "Threatened Soviet control"
+    },
+    {
+      "id": 35,
+      "question": "A 1961 photo shows families separated by a wall overnight. What event caused this?",
+      "options": ["Berlin Airlift", "Berlin Wall construction", "Yalta Conference", "Potsdam Conference"],
+      "correct_answer": "Berlin Wall construction"
+    },
+    {
+      "id": 36,
+      "question": "A CIA-backed invasion attempt in Cuba fails in 1961. What was the consequence?",
+      "options": ["Castro removed", "Improved U.S.–Cuba relations", "Cuba aligned closer with USSR", "End of Cold War"],
+      "correct_answer": "Cuba aligned closer with USSR"
+    },
+    {
+      "id": 37,
+      "question": "A speech promises innovation, youth, and progress at home and abroad. What program is referenced?",
+      "options": ["Fair Deal", "New Frontier", "Great Society", "Containment"],
+      "correct_answer": "New Frontier"
+    },
+    {
+      "id": 38,
+      "question": "A map shows West Berlin surrounded by communist territory. Why was it vulnerable?",
+      "options": ["No military", "Geographic isolation", "Lack of leadership", "Economic collapse"],
+      "correct_answer": "Geographic isolation"
+    },
+    {
+      "id": 39,
+      "question": "A headline reads: 'UNESCO Rebuilds European Schools.' What goal did this organization serve?",
+      "options": ["Military defense", "Human rights promotion", "Cultural cooperation", "Economic sanctions"],
+      "correct_answer": "Cultural cooperation"
+    },
+    {
+      "id": 40,
+      "question": "A postwar treaty establishes humane treatment of civilians and POWs. Which agreement is this?",
+      "options": ["NATO Charter", "Geneva Conventions", "UN Charter", "Atlantic Charter"],
+      "correct_answer": "Geneva Conventions"
+    },
+
+    {
+      "id": 41,
+      "question": "A chart shows defense spending rising after 1950. What document encouraged this?",
+      "options": ["Truman Doctrine", "NSC-68", "Marshall Plan", "GI Bill"],
+      "correct_answer": "NSC-68"
+    },
+    {
+      "id": 42,
+      "question": "A headline states: 'Soviets Test Hydrogen Bomb.' What was the U.S. response?",
+      "options": ["Disarmament", "Arms buildup", "Detente", "Appeasement"],
+      "correct_answer": "Arms buildup"
+    },
+    {
+      "id": 43,
+      "question": "A 1950s city map shows highways cutting through neighborhoods. What policy caused this?",
+      "options": ["GI Bill", "Federal-Aid Highway Act", "Urban renewal", "Marshall Plan"],
+      "correct_answer": "Federal-Aid Highway Act"
+    },
+    {
+      "id": 44,
+      "question": "A report reveals minorities excluded from FHA-backed loans. What practice is shown?",
+      "options": ["Unionization", "Redlining", "Integration", "Detente"],
+      "correct_answer": "Redlining"
+    },
+    {
+      "id": 45,
+      "question": "A Cold War cartoon shows diplomacy replaced by missiles. What strategy does this criticize?",
+      "options": ["Containment", "Brinkmanship", "Appeasement", "Isolationism"],
+      "correct_answer": "Brinkmanship"
+    },
+    {
+      "id": 46,
+      "question": "A photo shows Soviet and U.S. tanks facing each other in Berlin. What is illustrated?",
+      "options": ["Proxy war", "Cold War tension", "Detente", "Alliance cooperation"],
+      "correct_answer": "Cold War tension"
+    },
+    {
+      "id": 47,
+      "question": "A document lists freedoms of religion, speech, and assembly. What is it?",
+      "options": ["UN Charter", "Universal Declaration of Human Rights", "Bill of Rights", "Geneva Treaty"],
+      "correct_answer": "Universal Declaration of Human Rights"
+    },
+    {
+      "id": 48,
+      "question": "A map shows NATO expanding westward. What Soviet response followed?",
+      "options": ["UN withdrawal", "Warsaw Pact formation", "Marshall Plan rejection", "Detente"],
+      "correct_answer": "Warsaw Pact formation"
+    },
+    {
+      "id": 49,
+      "question": "A headline reads: 'Korean War Ends Without Victory.' What best describes the outcome?",
+      "options": ["Communist victory", "Democratic victory", "Stalemate", "Unification"],
+      "correct_answer": "Stalemate"
+    },
+    {
+      "id": 50,
+      "question": "A chart shows increasing college enrollment after WWII. What long-term effect resulted?",
+      "options": ["Smaller middle class", "Economic decline", "Expanded middle class", "Urban poverty"],
+      "correct_answer": "Expanded middle class"
+    },
+
+    {
+      "id": 51,
+      "question": "A photo shows migrant workers living in poor conditions during economic prosperity. What does this reveal?",
+      "options": ["Economic equality", "Hidden poverty", "Communist success", "Urban renewal success"],
+      "correct_answer": "Hidden poverty"
+    },
+    {
+      "id": 52,
+      "question": "A political cartoon shows fear silencing citizens. What era is criticized?",
+      "options": ["Progressive Era", "McCarthy Era", "New Deal", "Civil Rights Era"],
+      "correct_answer": "McCarthy Era"
+    },
+    {
+      "id": 53,
+      "question": "A map shows Sun Belt population growth. What factor contributed?",
+      "options": ["Air conditioning", "Union jobs", "Farming expansion", "Mining growth"],
+      "correct_answer": "Air conditioning"
+    },
+    {
+      "id": 54,
+      "question": "A government report shows surveillance of suspected radicals. What amendment is challenged?",
+      "options": ["1st", "2nd", "4th", "10th"],
+      "correct_answer": "1st"
+    },
+    {
+      "id": 55,
+      "question": "A youth magazine celebrates rock-and-roll rebellion. What group gained influence?",
+      "options": ["Veterans", "Teenagers", "Politicians", "Labor unions"],
+      "correct_answer": "Teenagers"
+    },
+    {
+      "id": 56,
+      "question": "A Cold War ad ties shopping to freedom. What ideology is contrasted?",
+      "options": ["Communism", "Fascism", "Monarchy", "Colonialism"],
+      "correct_answer": "Communism"
+    },
+    {
+      "id": 57,
+      "question": "A graph shows increased military-industrial spending. What warning did Eisenhower give?",
+      "options": ["Economic collapse", "Military-industrial complex", "Nuclear disarmament", "Union power"],
+      "correct_answer": "Military-industrial complex"
+    },
+    {
+      "id": 58,
+      "question": "A headline announces CIA covert operations abroad. What Cold War tool is used?",
+      "options": ["Diplomacy", "Espionage", "Appeasement", "Isolationism"],
+      "correct_answer": "Espionage"
+    },
+    {
+      "id": 59,
+      "question": "A photograph shows POW protections enforced during war. What agreement applies?",
+      "options": ["UN Charter", "Geneva Conventions", "Marshall Plan", "NATO Treaty"],
+      "correct_answer": "Geneva Conventions"
+    },
+    {
+      "id": 60,
+      "question": "A report shows U.S. minorities pointing to Soviet criticism of racism. What contradiction is exposed?",
+      "options": ["Military weakness", "Civil rights hypocrisy", "Economic decline", "Diplomatic failure"],
+      "correct_answer": "Civil rights hypocrisy"
+    },
+
+    {
+      "id": 61,
+      "question": "A map shows communist governments forming a buffer zone. What was the Soviet goal?",
+      "options": ["Economic growth", "Security", "Trade expansion", "Colonization"],
+      "correct_answer": "Security"
+    },
+    {
+      "id": 62,
+      "question": "A Cold War speech claims leaders are accountable for war crimes. What precedent is cited?",
+      "options": ["Yalta", "Nuremberg Trials", "UN Charter", "Geneva Accords"],
+      "correct_answer": "Nuremberg Trials"
+    },
+    {
+      "id": 63,
+      "question": "A newspaper highlights baby boom growth. What impact followed?",
+      "options": ["Housing demand", "Economic collapse", "Urban decline", "Lower taxes"],
+      "correct_answer": "Housing demand"
+    },
+    {
+      "id": 64,
+      "question": "A headline reads: 'UN Fails to Hold Elections in North Korea.' Why?",
+      "options": ["U.S. refusal", "Soviet refusal", "Economic collapse", "War outbreak"],
+      "correct_answer": "Soviet refusal"
+    },
+    {
+      "id": 65,
+      "question": "A Cold War map shows proxy conflicts worldwide. What strategy is illustrated?",
+      "options": ["Direct warfare", "Proxy wars", "Detente", "Appeasement"],
+      "correct_answer": "Proxy wars"
+    },
+    {
+      "id": 66,
+      "question": "A suburban ad depicts a nuclear family. What cultural expectation is reinforced?",
+      "options": ["Gender equality", "Traditional roles", "Urban living", "Collectivism"],
+      "correct_answer": "Traditional roles"
+    },
+    {
+      "id": 67,
+      "question": "A report shows unions weakened after 1947. What law contributed?",
+      "options": ["GI Bill", "Taft-Hartley Act", "Fair Deal", "New Frontier"],
+      "correct_answer": "Taft-Hartley Act"
+    },
+    {
+      "id": 68,
+      "question": "A photo shows Levittown housing rows. What does this symbolize?",
+      "options": ["Urban renewal", "Suburban mass production", "Industrial decline", "Rural poverty"],
+      "correct_answer": "Suburban mass production"
+    },
+    {
+      "id": 69,
+      "question": "A Cold War headline claims culture as propaganda. What items were used?",
+      "options": ["Jazz and films", "Weapons only", "Treaties", "Farming exports"],
+      "correct_answer": "Jazz and films"
+    },
+    {
+      "id": 70,
+      "question": "A political speech claims fear threatens democracy itself. What period is criticized?",
+      "options": ["WWII", "Red Scare", "Progressive Era", "New Deal"],
+      "correct_answer": "Red Scare"
+    },
+
+    {
+      "id": 71,
+      "question": "A map shows NATO and Warsaw Pact facing off. What risk did this create?",
+      "options": ["Economic collapse", "Nuclear confrontation", "Isolationism", "Trade embargo"],
+      "correct_answer": "Nuclear confrontation"
+    },
+    {
+      "id": 72,
+      "question": "A report shows poverty unchanged despite prosperity. What does this reveal?",
+      "options": ["Equal wealth distribution", "Economic inequality", "Policy success", "Communist influence"],
+      "correct_answer": "Economic inequality"
+    },
+    {
+      "id": 73,
+      "question": "A headline reports Supreme Court limits loyalty oaths. What principle is defended?",
+      "options": ["Federalism", "Civil liberties", "Military authority", "Containment"],
+      "correct_answer": "Civil liberties"
+    },
+    {
+      "id": 74,
+      "question": "A Cold War poster depicts freedom versus tyranny. What ideology is promoted?",
+      "options": ["Communism", "Capitalism", "Monarchy", "Isolationism"],
+      "correct_answer": "Capitalism"
+    },
+    {
+      "id": 75,
+      "question": "A map shows migration from Appalachia to Midwest cities. What caused this?",
+      "options": ["Industrial jobs elsewhere", "Farm expansion", "Urban renewal success", "Foreign invasion"],
+      "correct_answer": "Industrial jobs elsewhere"
+    },
+    {
+      "id": 76,
+      "question": "A Cold War speech argues peace through strength. What policy does this reflect?",
+      "options": ["Detente", "Military buildup", "Appeasement", "Isolationism"],
+      "correct_answer": "Military buildup"
+    },
+    {
+      "id": 77,
+      "question": "A chart shows increased CIA activity abroad. What Cold War method is used?",
+      "options": ["Espionage", "Diplomacy", "Trade", "Disarmament"],
+      "correct_answer": "Espionage"
+    },
+    {
+      "id": 78,
+      "question": "A photo shows mixed-race audiences at concerts. What Cold War contradiction is challenged?",
+      "options": ["Segregation", "Consumerism", "Containment", "Isolationism"],
+      "correct_answer": "Segregation"
+    },
+    {
+      "id": 79,
+      "question": "A Cold War document emphasizes individual accountability for crimes. What legacy is reinforced?",
+      "options": ["Nuremberg Trials", "Marshall Plan", "Yalta Conference", "Containment"],
+      "correct_answer": "Nuremberg Trials"
+    },
+    {
+      "id": 80,
+      "question": "A headline reads: 'Kennedy Declares Support for West Berlin.' What message is sent?",
+      "options": ["U.S. withdrawal", "Commitment to allies", "End of Cold War", "Neutrality"],
+      "correct_answer": "Commitment to allies"
+    },
+
+    {
+      "id": 81,
+      "question": "A political cartoon shows fear silencing dissent. What danger is warned against?",
+      "options": ["Communism", "Loss of freedoms", "Economic collapse", "Foreign invasion"],
+      "correct_answer": "Loss of freedoms"
+    },
+    {
+      "id": 82,
+      "question": "A Cold War speech supports global health cooperation. What organization applies?",
+      "options": ["WHO", "NATO", "CIA", "IMF"],
+      "correct_answer": "WHO"
+    },
+    {
+      "id": 83,
+      "question": "A chart shows increased trade among Western nations. What agreement helped this?",
+      "options": ["GATT", "Warsaw Pact", "SEATO", "UNESCO"],
+      "correct_answer": "GATT"
+    },
+    {
+      "id": 84,
+      "question": "A photo shows POW camps monitored by international groups. What Cold War value is upheld?",
+      "options": ["Human rights", "Isolationism", "Communism", "Economic growth"],
+      "correct_answer": "Human rights"
+    },
+    {
+      "id": 85,
+      "question": "A Cold War-era map shows decolonizing nations choosing sides. What pressure did they face?",
+      "options": ["Alignment pressure", "Economic collapse", "Population loss", "Isolation"],
+      "correct_answer": "Alignment pressure"
+    },
+    {
+      "id": 86,
+      "question": "A suburban school expansion occurs in the 1950s. What caused this?",
+      "options": ["Immigration", "Baby boom", "Urban renewal", "Union growth"],
+      "correct_answer": "Baby boom"
+    },
+    {
+      "id": 87,
+      "question": "A Cold War speech criticizes conformity. What era does this reflect?",
+      "options": ["1950s culture", "Progressive Era", "WWI", "New Deal"],
+      "correct_answer": "1950s culture"
+    },
+    {
+      "id": 88,
+      "question": "A map shows Vietnam divided after 1954. What agreement caused this?",
+      "options": ["Geneva Accords", "Truman Doctrine", "Marshall Plan", "SEATO Treaty"],
+      "correct_answer": "Geneva Accords"
+    },
+    {
+      "id": 89,
+      "question": "A Cold War cartoon depicts propaganda battles. What tool is emphasized?",
+      "options": ["Culture", "Military", "Espionage", "Economics"],
+      "correct_answer": "Culture"
+    },
+    {
+      "id": 90,
+      "question": "A report highlights discrimination undermining U.S. foreign policy. Why?",
+      "options": ["Economic cost", "Loss of moral authority", "Military weakness", "Trade loss"],
+      "correct_answer": "Loss of moral authority"
+    },
+
+    {
+      "id": 91,
+      "question": "A Cold War map shows strategic alliances encircling the USSR. What strategy is used?",
+      "options": ["Containment", "Appeasement", "Isolationism", "Detente"],
+      "correct_answer": "Containment"
+    },
+    {
+      "id": 92,
+      "question": "A headline reads: 'Kennedy Faces Nuclear Standoff.' What leadership challenge is shown?",
+      "options": ["Domestic reform", "Cold War crisis management", "Economic recession", "Civil war"],
+      "correct_answer": "Cold War crisis management"
+    },
+    {
+      "id": 93,
+      "question": "A Cold War cartoon criticizes arms spending over social needs. What concern is raised?",
+      "options": ["Military-industrial complex", "Union power", "Communist expansion", "Isolationism"],
+      "correct_answer": "Military-industrial complex"
+    },
+    {
+      "id": 94,
+      "question": "A chart shows continued poverty despite growth. What conclusion is supported?",
+      "options": ["Prosperity was universal", "Inequality persisted", "Cold War ended poverty", "Government failed completely"],
+      "correct_answer": "Inequality persisted"
+    },
+    {
+      "id": 95,
+      "question": "A Cold War film promotes democracy through lifestyle imagery. What strategy is used?",
+      "options": ["Cultural diplomacy", "Military coercion", "Espionage", "Economic sanctions"],
+      "correct_answer": "Cultural diplomacy"
+    },
+    {
+      "id": 96,
+      "question": "A report shows Native Americans forming advocacy groups. What goal did they pursue?",
+      "options": ["Termination", "Self-determination", "Isolation", "Assimilation"],
+      "correct_answer": "Self-determination"
+    },
+    {
+      "id": 97,
+      "question": "A Cold War speech warns against fear-driven policy. What lesson is emphasized?",
+      "options": ["Strength through unity", "Protect democracy", "Expand military", "Suppress dissent"],
+      "correct_answer": "Protect democracy"
+    },
+    {
+      "id": 98,
+      "question": "A Cold War map highlights global ideological rivalry. What era is defined?",
+      "options": ["Cold War", "WWII", "Post-Cold War", "Progressive Era"],
+      "correct_answer": "Cold War"
+    },
+    {
+      "id": 99,
+      "question": "A headline reads: 'U.S. Avoids Direct War with USSR.' What method allowed this?",
+      "options": ["Proxy wars", "Appeasement", "Isolationism", "Unilateralism"],
+      "correct_answer": "Proxy wars"
+    },
+    {
+      "id": 100,
+      "question": "A Cold War cartoon shows fear vs freedom. What core tension is illustrated?",
+      "options": ["Security vs liberty", "Trade vs growth", "Military vs economy", "Allies vs enemies"],
+      "correct_answer": "Security vs liberty"
+    }
+  ]
+}

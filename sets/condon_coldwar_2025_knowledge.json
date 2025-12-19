@@ -1,0 +1,625 @@
+{
+  "set_id": "cold_war_knowledge_set",
+  "set_name": "Cold War Knowledge Practice",
+  "description": "100 memorization-based multiple choice questions covering key Cold War events, terms, laws, people, organizations, and concepts.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What organization was formed in 1945 to promote international peace and cooperation?",
+      "options": ["NATO", "League of Nations", "United Nations", "Warsaw Pact"],
+      "correct_answer": "United Nations"
+    },
+    {
+      "id": 2,
+      "question": "What 1941 document outlined Allied war aims and inspired the United Nations?",
+      "options": ["Marshall Plan", "Atlantic Charter", "UN Charter", "Geneva Convention"],
+      "correct_answer": "Atlantic Charter"
+    },
+    {
+      "id": 3,
+      "question": "Which UN organization focuses on education, science, and culture?",
+      "options": ["WHO", "IMF", "UNESCO", "World Bank"],
+      "correct_answer": "UNESCO"
+    },
+    {
+      "id": 4,
+      "question": "What 1948 UN document listed fundamental human rights?",
+      "options": ["UN Charter", "Geneva Conventions", "Universal Declaration of Human Rights", "Atlantic Charter"],
+      "correct_answer": "Universal Declaration of Human Rights"
+    },
+    {
+      "id": 5,
+      "question": "What organization provides loans to stabilize economies and prevent collapse?",
+      "options": ["NATO", "IMF", "CIA", "SEATO"],
+      "correct_answer": "IMF"
+    },
+
+    {
+      "id": 6,
+      "question": "Which 1945 conference planned the postwar division of Germany?",
+      "options": ["Potsdam", "Yalta", "Munich", "Tehran"],
+      "correct_answer": "Yalta"
+    },
+    {
+      "id": 7,
+      "question": "Which conference revealed growing mistrust between the U.S. and USSR?",
+      "options": ["Yalta", "Tehran", "Potsdam", "Munich"],
+      "correct_answer": "Potsdam"
+    },
+    {
+      "id": 8,
+      "question": "What event occurred when the Soviets blocked access to West Berlin?",
+      "options": ["Berlin Wall", "Berlin Airlift", "Iron Curtain", "Checkpoint Charlie"],
+      "correct_answer": "Berlin Airlift"
+    },
+    {
+      "id": 9,
+      "question": "What structure built in 1961 became the ultimate Cold War symbol?",
+      "options": ["Iron Curtain", "Berlin Wall", "Maginot Line", "DMZ"],
+      "correct_answer": "Berlin Wall"
+    },
+    {
+      "id": 10,
+      "question": "What term describes the division between communist East and democratic West Europe?",
+      "options": ["Containment", "Iron Curtain", "Detente", "Appeasement"],
+      "correct_answer": "Iron Curtain"
+    },
+
+    {
+      "id": 11,
+      "question": "What U.S. policy aimed to stop the spread of communism?",
+      "options": ["Isolationism", "Containment", "Appeasement", "Imperialism"],
+      "correct_answer": "Containment"
+    },
+    {
+      "id": 12,
+      "question": "Who wrote the Long Telegram supporting containment?",
+      "options": ["Truman", "Kennan", "Marshall", "Eisenhower"],
+      "correct_answer": "Kennan"
+    },
+    {
+      "id": 13,
+      "question": "What 1947 policy promised aid to nations resisting communism?",
+      "options": ["Marshall Plan", "Truman Doctrine", "NSC-68", "GI Bill"],
+      "correct_answer": "Truman Doctrine"
+    },
+    {
+      "id": 14,
+      "question": "What plan sent over $12 billion to rebuild Western Europe?",
+      "options": ["IMF", "Marshall Plan", "World Bank", "UNESCO"],
+      "correct_answer": "Marshall Plan"
+    },
+    {
+      "id": 15,
+      "question": "Which alliance was the first U.S. peacetime military alliance?",
+      "options": ["SEATO", "NATO", "UN", "Warsaw Pact"],
+      "correct_answer": "NATO"
+    },
+
+    {
+      "id": 16,
+      "question": "What alliance was created in response to NATO?",
+      "options": ["UN", "Warsaw Pact", "SEATO", "IMF"],
+      "correct_answer": "Warsaw Pact"
+    },
+    {
+      "id": 17,
+      "question": "What 1950 report called for massive military buildup?",
+      "options": ["NSC-68", "GI Bill", "Smith Act", "Containment Doctrine"],
+      "correct_answer": "NSC-68"
+    },
+    {
+      "id": 18,
+      "question": "What nuclear strategy depended on mutual destruction?",
+      "options": ["Brinkmanship", "Detente", "MAD", "Containment"],
+      "correct_answer": "MAD"
+    },
+    {
+      "id": 19,
+      "question": "What term describes indirect Cold War conflicts?",
+      "options": ["Cold peace", "Proxy war", "Detente", "Appeasement"],
+      "correct_answer": "Proxy war"
+    },
+    {
+      "id": 20,
+      "question": "What organization conducts U.S. foreign intelligence operations?",
+      "options": ["FBI", "CIA", "NSA", "NSC"],
+      "correct_answer": "CIA"
+    },
+
+    {
+      "id": 21,
+      "question": "Who led the Chinese Communist Party to victory in 1949?",
+      "options": ["Chiang Kai-shek", "Ho Chi Minh", "Mao Zedong", "Kim Il-sung"],
+      "correct_answer": "Mao Zedong"
+    },
+    {
+      "id": 22,
+      "question": "What was the communist army of China called?",
+      "options": ["CCP", "PLA", "Viet Minh", "Red Army"],
+      "correct_answer": "PLA"
+    },
+    {
+      "id": 23,
+      "question": "What government was established in China in 1949?",
+      "options": ["Republic of China", "People’s Republic of China", "Nationalist China", "Imperial China"],
+      "correct_answer": "People’s Republic of China"
+    },
+    {
+      "id": 24,
+      "question": "Where did Chiang Kai-shek flee after losing China?",
+      "options": ["Japan", "Vietnam", "Taiwan", "Korea"],
+      "correct_answer": "Taiwan"
+    },
+    {
+      "id": 25,
+      "question": "What theory claimed countries would fall to communism one by one?",
+      "options": ["Containment", "Domino Theory", "Brinkmanship", "MAD"],
+      "correct_answer": "Domino Theory"
+    },
+
+    {
+      "id": 26,
+      "question": "What line divided North and South Korea?",
+      "options": ["Iron Curtain", "38th Parallel", "17th Parallel", "DMZ"],
+      "correct_answer": "38th Parallel"
+    },
+    {
+      "id": 27,
+      "question": "Who invaded South Korea in 1950?",
+      "options": ["China", "USSR", "North Korea", "Japan"],
+      "correct_answer": "North Korea"
+    },
+    {
+      "id": 28,
+      "question": "What war lasted from 1950 to 1953?",
+      "options": ["Vietnam War", "Korean War", "Cold War", "Chinese Civil War"],
+      "correct_answer": "Korean War"
+    },
+    {
+      "id": 29,
+      "question": "What landing turned the Korean War in favor of the South?",
+      "options": ["Pusan", "Inchon", "Hanoi", "Dien Bien Phu"],
+      "correct_answer": "Inchon"
+    },
+    {
+      "id": 30,
+      "question": "Which country intervened to support North Korea?",
+      "options": ["USSR", "Japan", "China", "Vietnam"],
+      "correct_answer": "China"
+    },
+
+    {
+      "id": 31,
+      "question": "What congressional committee investigated communists?",
+      "options": ["CIA", "HUAC", "FBI", "NSC"],
+      "correct_answer": "HUAC"
+    },
+    {
+      "id": 32,
+      "question": "What law made advocating overthrow illegal?",
+      "options": ["GI Bill", "Taft-Hartley Act", "Smith Act", "Fair Deal"],
+      "correct_answer": "Smith Act"
+    },
+    {
+      "id": 33,
+      "question": "Who were the Hollywood Ten?",
+      "options": ["Actors", "Directors and writers", "Politicians", "Spies"],
+      "correct_answer": "Directors and writers"
+    },
+    {
+      "id": 34,
+      "question": "What punishment kept suspected communists from working?",
+      "options": ["Censorship", "Blacklisting", "Exile", "Imprisonment"],
+      "correct_answer": "Blacklisting"
+    },
+    {
+      "id": 35,
+      "question": "What senator led aggressive anti-communist investigations?",
+      "options": ["Nixon", "Kennedy", "McCarthy", "Truman"],
+      "correct_answer": "McCarthy"
+    },
+
+    {
+      "id": 36,
+      "question": "What case involved accusations against a former State Department official?",
+      "options": ["Rosenberg Trial", "Hiss Case", "Brown v. Board", "HUAC Hearings"],
+      "correct_answer": "Hiss Case"
+    },
+    {
+      "id": 37,
+      "question": "Who were executed for passing atomic secrets?",
+      "options": ["Hollywood Ten", "Rosenbergs", "Hiss family", "Kennans"],
+      "correct_answer": "Rosenbergs"
+    },
+    {
+      "id": 38,
+      "question": "What 1944 law helped veterans with education and housing?",
+      "options": ["Marshall Plan", "GI Bill", "Fair Deal", "New Frontier"],
+      "correct_answer": "GI Bill"
+    },
+    {
+      "id": 39,
+      "question": "What planned suburb symbolized postwar growth?",
+      "options": ["Levittown", "Appalachia", "Harlem", "Detroit"],
+      "correct_answer": "Levittown"
+    },
+    {
+      "id": 40,
+      "question": "What term describes movement to suburbs?",
+      "options": ["Urbanization", "Suburbanization", "Industrialization", "Migration"],
+      "correct_answer": "Suburbanization"
+    },
+
+    {
+      "id": 41,
+      "question": "What practice denied minorities home loans?",
+      "options": ["Blockbusting", "Redlining", "Urban renewal", "Zoning"],
+      "correct_answer": "Redlining"
+    },
+    {
+      "id": 42,
+      "question": "What region had severe rural poverty?",
+      "options": ["Midwest", "Appalachia", "Sun Belt", "Great Plains"],
+      "correct_answer": "Appalachia"
+    },
+    {
+      "id": 43,
+      "question": "What industry dominated Appalachia?",
+      "options": ["Farming", "Coal mining", "Steel", "Textiles"],
+      "correct_answer": "Coal mining"
+    },
+    {
+      "id": 44,
+      "question": "What 1960 documentary exposed migrant worker poverty?",
+      "options": ["Harvest of Shame", "Eyes on the Prize", "Nightline", "60 Minutes"],
+      "correct_answer": "Harvest of Shame"
+    },
+    {
+      "id": 45,
+      "question": "What policy attempted to clear slums?",
+      "options": ["GI Bill", "Urban renewal", "Redlining", "Containment"],
+      "correct_answer": "Urban renewal"
+    },
+
+    {
+      "id": 46,
+      "question": "Who won the 1960 presidential election?",
+      "options": ["Nixon", "Johnson", "Kennedy", "Eisenhower"],
+      "correct_answer": "Kennedy"
+    },
+    {
+      "id": 47,
+      "question": "Who was Kennedy’s vice president?",
+      "options": ["Nixon", "Humphrey", "Johnson", "Lodge"],
+      "correct_answer": "Johnson"
+    },
+    {
+      "id": 48,
+      "question": "What failed 1961 invasion targeted Cuba?",
+      "options": ["Operation Mongoose", "Bay of Pigs", "Berlin Crisis", "Cuban Missile Crisis"],
+      "correct_answer": "Bay of Pigs"
+    },
+    {
+      "id": 49,
+      "question": "Who led Cuba after 1959?",
+      "options": ["Batista", "Castro", "Che", "Trujillo"],
+      "correct_answer": "Castro"
+    },
+    {
+      "id": 50,
+      "question": "What Kennedy program promoted domestic reform?",
+      "options": ["Fair Deal", "New Frontier", "Great Society", "Containment"],
+      "correct_answer": "New Frontier"
+    },
+        {
+      "id": 51,
+      "question": "What term describes the sharp increase in births after World War II?",
+      "options": ["Great Migration", "Baby Boom", "Population shift", "Suburban surge"],
+      "correct_answer": "Baby Boom"
+    },
+    {
+      "id": 52,
+      "question": "Approximately how many children were born during the Baby Boom?",
+      "options": ["20 million", "40 million", "76 million", "100 million"],
+      "correct_answer": "76 million"
+    },
+    {
+      "id": 53,
+      "question": "What technology encouraged migration to the Sun Belt?",
+      "options": ["Television", "Automobiles", "Air conditioning", "Railroads"],
+      "correct_answer": "Air conditioning"
+    },
+    {
+      "id": 54,
+      "question": "What region experienced major population growth after WWII?",
+      "options": ["Rust Belt", "Great Plains", "Sun Belt", "Appalachia"],
+      "correct_answer": "Sun Belt"
+    },
+    {
+      "id": 55,
+      "question": "What law funded interstate highways and boosted suburban growth?",
+      "options": ["GI Bill", "Federal-Aid Highway Act", "Marshall Plan", "Taft-Hartley Act"],
+      "correct_answer": "Federal-Aid Highway Act"
+    },
+
+    {
+      "id": 56,
+      "question": "What Cold War cultural symbol was used to promote American values abroad?",
+      "options": ["Military parades", "Jazz music", "Political speeches", "UN resolutions"],
+      "correct_answer": "Jazz music"
+    },
+    {
+      "id": 57,
+      "question": "What consumer product rose from 9% to over 60% household ownership in the 1950s?",
+      "options": ["Cars", "Televisions", "Refrigerators", "Radios"],
+      "correct_answer": "Televisions"
+    },
+    {
+      "id": 58,
+      "question": "What music genre symbolized teenage rebellion in the 1950s?",
+      "options": ["Jazz", "Rock and roll", "Blues", "Country"],
+      "correct_answer": "Rock and roll"
+    },
+    {
+      "id": 59,
+      "question": "Which artist became a symbol of 1950s youth culture?",
+      "options": ["Frank Sinatra", "Elvis Presley", "Louis Armstrong", "Bob Dylan"],
+      "correct_answer": "Elvis Presley"
+    },
+    {
+      "id": 60,
+      "question": "What book later challenged traditional roles for women in the 1950s?",
+      "options": ["Silent Spring", "The Feminine Mystique", "The Lonely Crowd", "The Other America"],
+      "correct_answer": "The Feminine Mystique"
+    },
+
+    {
+      "id": 61,
+      "question": "What Cold War practice encouraged conformity and fear of standing out?",
+      "options": ["Detente", "McCarthyism", "Containment", "Appeasement"],
+      "correct_answer": "McCarthyism"
+    },
+    {
+      "id": 62,
+      "question": "What Senate hearings exposed McCarthy’s tactics and led to his decline?",
+      "options": ["Hollywood Hearings", "Army-McCarthy Hearings", "HUAC Hearings", "Rosenberg Trial"],
+      "correct_answer": "Army-McCarthy Hearings"
+    },
+    {
+      "id": 63,
+      "question": "What term describes fear-driven accusations without proof?",
+      "options": ["Due process", "Witch hunt", "Detente", "Proxy war"],
+      "correct_answer": "Witch hunt"
+    },
+    {
+      "id": 64,
+      "question": "What group was required to take loyalty oaths in the 1950s?",
+      "options": ["Soldiers only", "Teachers and professors", "Business owners", "Veterans"],
+      "correct_answer": "Teachers and professors"
+    },
+    {
+      "id": 65,
+      "question": "What constitutional freedom was often violated during the Red Scare?",
+      "options": ["Right to bear arms", "Freedom of speech", "Right to vote", "Right to privacy"],
+      "correct_answer": "Freedom of speech"
+    },
+
+    {
+      "id": 66,
+      "question": "What event ended French control in Vietnam?",
+      "options": ["Geneva Accords", "Tet Offensive", "Battle of Dien Bien Phu", "Domino Theory"],
+      "correct_answer": "Battle of Dien Bien Phu"
+    },
+    {
+      "id": 67,
+      "question": "What Vietnamese communist leader led the Viet Minh?",
+      "options": ["Ngo Dinh Diem", "Ho Chi Minh", "Mao Zedong", "Pol Pot"],
+      "correct_answer": "Ho Chi Minh"
+    },
+    {
+      "id": 68,
+      "question": "What agreement divided Vietnam at the 17th parallel?",
+      "options": ["Paris Accords", "Geneva Accords", "SEATO Treaty", "UN Resolution"],
+      "correct_answer": "Geneva Accords"
+    },
+    {
+      "id": 69,
+      "question": "What Asian conflict increased U.S. fear of communism spreading?",
+      "options": ["Chinese Civil War", "Korean War", "Vietnam War", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": 70,
+      "question": "What Cold War belief justified U.S. involvement in Asia?",
+      "options": ["Appeasement", "Isolationism", "Domino Theory", "Detente"],
+      "correct_answer": "Domino Theory"
+    },
+
+    {
+      "id": 71,
+      "question": "What U.S. general was removed for insubordination during the Korean War?",
+      "options": ["Eisenhower", "Bradley", "MacArthur", "Patton"],
+      "correct_answer": "MacArthur"
+    },
+    {
+      "id": 72,
+      "question": "What was the outcome of the Korean War?",
+      "options": ["Unification", "Communist victory", "Democratic victory", "Stalemate"],
+      "correct_answer": "Stalemate"
+    },
+    {
+      "id": 73,
+      "question": "What line remains the border between North and South Korea today?",
+      "options": ["Iron Curtain", "17th parallel", "38th parallel", "DMZ"],
+      "correct_answer": "38th parallel"
+    },
+    {
+      "id": 74,
+      "question": "What type of economy is controlled by the government?",
+      "options": ["Market economy", "Mixed economy", "Command economy", "Free enterprise"],
+      "correct_answer": "Command economy"
+    },
+    {
+      "id": 75,
+      "question": "Who were Karl Marx and Friedrich Engels?",
+      "options": ["Capitalist economists", "Communist theorists", "U.S. politicians", "Cold War generals"],
+      "correct_answer": "Communist theorists"
+    },
+
+    {
+      "id": 76,
+      "question": "What Cold War competition focused on weapons development?",
+      "options": ["Space Race", "Arms Race", "Trade War", "Culture War"],
+      "correct_answer": "Arms Race"
+    },
+    {
+      "id": 77,
+      "question": "What civil defense practice taught children to hide from nuclear blasts?",
+      "options": ["Evacuation drills", "Duck and Cover", "Shelter in place", "Blackout drills"],
+      "correct_answer": "Duck and Cover"
+    },
+    {
+      "id": 78,
+      "question": "What structure symbolized the division of Germany?",
+      "options": ["Iron Curtain", "Berlin Wall", "Rhine River", "DMZ"],
+      "correct_answer": "Berlin Wall"
+    },
+    {
+      "id": 79,
+      "question": "What Cold War contradiction did the USSR use to criticize the U.S.?",
+      "options": ["Military spending", "Racial discrimination", "Economic inequality", "Immigration limits"],
+      "correct_answer": "Racial discrimination"
+    },
+    {
+      "id": 80,
+      "question": "What phrase describes the tension between freedom and security?",
+      "options": ["Civil defense", "Security vs liberty", "Containment", "Balance of power"],
+      "correct_answer": "Security vs liberty"
+    },
+
+    {
+      "id": 81,
+      "question": "What Kennedy-era failure pushed Cuba closer to the USSR?",
+      "options": ["Cuban Missile Crisis", "Bay of Pigs", "Operation Mongoose", "Berlin Crisis"],
+      "correct_answer": "Bay of Pigs"
+    },
+    {
+      "id": 82,
+      "question": "What leader ruled Cuba after 1959?",
+      "options": ["Batista", "Castro", "Trujillo", "Allende"],
+      "correct_answer": "Castro"
+    },
+    {
+      "id": 83,
+      "question": "What crisis brought the U.S. and USSR closest to nuclear war?",
+      "options": ["Berlin Wall", "Korean War", "Cuban Missile Crisis", "Vietnam War"],
+      "correct_answer": "Cuban Missile Crisis"
+    },
+    {
+      "id": 84,
+      "question": "What term describes easing tensions between superpowers?",
+      "options": ["Containment", "Brinkmanship", "Detente", "Appeasement"],
+      "correct_answer": "Detente"
+    },
+    {
+      "id": 85,
+      "question": "What Cold War lesson emphasized leaders being held accountable for crimes?",
+      "options": ["Geneva Accords", "Yalta Agreement", "Nuremberg Trials", "Marshall Plan"],
+      "correct_answer": "Nuremberg Trials"
+    },
+
+    {
+      "id": 86,
+      "question": "What postwar trend increased college attendance?",
+      "options": ["Baby Boom", "GI Bill", "Containment", "Urban renewal"],
+      "correct_answer": "GI Bill"
+    },
+    {
+      "id": 87,
+      "question": "What group benefited the least from postwar prosperity?",
+      "options": ["White middle class", "Veterans", "Minorities", "Suburban families"],
+      "correct_answer": "Minorities"
+    },
+    {
+      "id": 88,
+      "question": "What term describes the movement of whites out of cities?",
+      "options": ["Urban renewal", "White flight", "Redlining", "Blockbusting"],
+      "correct_answer": "White flight"
+    },
+    {
+      "id": 89,
+      "question": "What Cold War organization promoted global health?",
+      "options": ["WHO", "IMF", "NATO", "CIA"],
+      "correct_answer": "WHO"
+    },
+    {
+      "id": 90,
+      "question": "What agreement reduced trade barriers among Western nations?",
+      "options": ["Warsaw Pact", "SEATO", "GATT", "NATO"],
+      "correct_answer": "GATT"
+    },
+
+    {
+      "id": 91,
+      "question": "What Cold War fear shaped daily American life the most?",
+      "options": ["Inflation", "Nuclear war", "Immigration", "Unemployment"],
+      "correct_answer": "Nuclear war"
+    },
+    {
+      "id": 92,
+      "question": "What term describes government-led rebuilding of cities?",
+      "options": ["Suburbanization", "Urban renewal", "Redlining", "Zoning"],
+      "correct_answer": "Urban renewal"
+    },
+    {
+      "id": 93,
+      "question": "What Cold War policy avoided direct conflict between superpowers?",
+      "options": ["Proxy wars", "Appeasement", "Isolationism", "Unilateralism"],
+      "correct_answer": "Proxy wars"
+    },
+    {
+      "id": 94,
+      "question": "What Cold War belief justified massive military spending?",
+      "options": ["NSC-68", "GI Bill", "Detente", "Fair Deal"],
+      "correct_answer": "NSC-68"
+    },
+    {
+      "id": 95,
+      "question": "What Cold War document emphasized freedom of religion and speech worldwide?",
+      "options": ["UN Charter", "Universal Declaration of Human Rights", "Geneva Conventions", "Atlantic Charter"],
+      "correct_answer": "Universal Declaration of Human Rights"
+    },
+
+    {
+      "id": 96,
+      "question": "What Cold War role did the media play?",
+      "options": ["Neutral reporting", "Propaganda tool", "Economic regulator", "Military oversight"],
+      "correct_answer": "Propaganda tool"
+    },
+    {
+      "id": 97,
+      "question": "What Cold War contradiction weakened U.S. moral authority abroad?",
+      "options": ["Economic inequality", "Racial segregation", "Military spending", "Consumerism"],
+      "correct_answer": "Racial segregation"
+    },
+    {
+      "id": 98,
+      "question": "What Cold War principle guided U.S. alliances worldwide?",
+      "options": ["Containment", "Isolationism", "Appeasement", "Neutrality"],
+      "correct_answer": "Containment"
+    },
+    {
+      "id": 99,
+      "question": "What Cold War theme describes fear shaping policy decisions?",
+      "options": ["Rational diplomacy", "Security dilemma", "Fear-driven politics", "Economic realism"],
+      "correct_answer": "Fear-driven politics"
+    },
+    {
+      "id": 100,
+      "question": "What is the overarching conflict between the U.S. and USSR called?",
+      "options": ["World War III", "Cold War", "Proxy War", "Arms Race"],
+      "correct_answer": "Cold War"
+    }
+  ]
+}
