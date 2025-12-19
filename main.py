@@ -1,4 +1,5 @@
 import json
+import random
 import time
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
@@ -96,19 +97,25 @@ def init_state():
     st.session_state.setdefault("pos", 0)
     st.session_state.setdefault("finished", False)
     st.session_state.setdefault("answers", {})
+    st.session_state.setdefault("checked", {})  # Track which questions have been checked (for instant mode)
     st.session_state.setdefault("last_poll", 0.0)
     st.session_state.setdefault("last_sig", "")
+    st.session_state.setdefault("feedback_mode", "instant")
 
 
-def start_quiz_for_set(set_data: Dict[str, Any]):
+def start_quiz_for_set(set_data: Dict[str, Any], randomize: bool = True):
     questions = set_data["questions"]
     set_id = set_data.get("set_id") or set_data.get("set_name") or "set"
 
     st.session_state.quiz_set_id = str(set_id)
-    st.session_state.order = list(range(len(questions)))
+    order = list(range(len(questions)))
+    if randomize:
+        random.shuffle(order)
+    st.session_state.order = order
     st.session_state.pos = 0
     st.session_state.finished = False
     st.session_state.answers = {}
+    st.session_state.checked = {}
 
 
 def current_question_index() -> int:
@@ -167,7 +174,9 @@ selected = st.sidebar.selectbox(
 
 if selected != st.session_state.selected_set_name:
     st.session_state.selected_set_name = selected
-    start_quiz_for_set(sets_by_name[selected])
+    # Randomize only for instant mode
+    randomize = st.session_state.feedback_mode == "instant"
+    start_quiz_for_set(sets_by_name[selected], randomize=randomize)
     _rerun()
 
 set_data = sets_by_name[st.session_state.selected_set_name]
@@ -177,8 +186,25 @@ set_id = str(set_data.get("set_id") or set_data["set_name"])
 st.sidebar.caption(f"Source: {set_data.get('_source_file', 'unknown')}")
 st.sidebar.write(f"Questions: **{len(questions)}**")
 
+feedback_mode = st.sidebar.radio(
+    "Feedback mode",
+    options=["instant", "long_test"],
+    index=0 if st.session_state.feedback_mode == "instant" else 1,
+    format_func=lambda x: "Instant feedback" if x == "instant" else "Long test (feedback at end)",
+    help="Instant feedback shows results immediately. Long test shows all results at the end."
+)
+
+if feedback_mode != st.session_state.feedback_mode:
+    st.session_state.feedback_mode = feedback_mode
+    # Restart quiz when mode changes
+    randomize = feedback_mode == "instant"
+    start_quiz_for_set(set_data, randomize=randomize)
+    _rerun()
+
 if st.sidebar.button("Restart quiz", use_container_width=True):
-    start_quiz_for_set(set_data)
+    # Randomize for instant mode, keep order for long test mode
+    randomize = st.session_state.feedback_mode == "instant"
+    start_quiz_for_set(set_data, randomize=randomize)
     _rerun()
 
 st.title(set_data["set_name"])
@@ -190,21 +216,55 @@ if st.session_state.finished or st.session_state.pos >= len(st.session_state.ord
     st.session_state.finished = True
 
     score = 0
+    correct_answers = []
+    incorrect_answers = []
+    
     for i, q in enumerate(questions):
-        if st.session_state.answers.get(i) == q["correct_answer"]:
+        user_answer = st.session_state.answers.get(i)
+        is_correct = user_answer == q["correct_answer"]
+        if is_correct:
             score += 1
+            correct_answers.append((i, q, user_answer))
+        else:
+            incorrect_answers.append((i, q, user_answer))
 
     st.subheader("Quiz complete")
     st.metric("Score", f"{score} / {len(questions)}")
 
     st.progress(score / max(1, len(questions)))
 
-    with st.expander("Review answers", expanded=True):
-        for i, q in enumerate(questions):
-            st.markdown(f"**Q{i+1}. {q['question']}**")
-            st.write(f"Your answer: {st.session_state.answers.get(i, 'Not answered')}")
-            st.write(f"Correct answer: {q['correct_answer']}")
-            st.divider()
+    # Add custom CSS for color coding
+    st.markdown("""
+    <style>
+    div[data-testid="stExpander"]:has(> div > div > div > div:contains("✅")) {
+        border-left: 5px solid #00cc00;
+    }
+    div[data-testid="stExpander"]:has(> div > div > div > div:contains("❌")) {
+        border-left: 5px solid #ff0000;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    # Separate correct and incorrect answers into collapsibles with color coding
+    with st.expander(f"✅ Correct Answers ({len(correct_answers)})", expanded=True):
+        if correct_answers:
+            for i, q, user_answer in correct_answers:
+                st.markdown(f"**Q{i+1}. {q['question']}**")
+                st.markdown(f"Your answer: **{user_answer}**")
+                st.markdown(f"Correct answer: **{q['correct_answer']}**")
+                st.divider()
+        else:
+            st.write("No correct answers.")
+    
+    with st.expander(f"❌ Incorrect Answers ({len(incorrect_answers)})", expanded=True):
+        if incorrect_answers:
+            for i, q, user_answer in incorrect_answers:
+                st.markdown(f"**Q{i+1}. {q['question']}**")
+                st.markdown(f"Your answer: {user_answer if user_answer else 'Not answered'}")
+                st.markdown(f"Correct answer: **{q['correct_answer']}**")
+                st.divider()
+        else:
+            st.write("No incorrect answers. Great job!")
 
     st.stop()
 
@@ -220,6 +280,16 @@ st.write(q["question"])
 choice_k = answer_key(set_id, q_idx)
 prev_answer = st.session_state.answers.get(q_idx)
 default_index = q["options"].index(prev_answer) if prev_answer in q["options"] else 0
+is_checked = st.session_state.checked.get(q_idx, False)
+
+# Show instant feedback if checked in instant mode
+if st.session_state.feedback_mode == "instant" and is_checked:
+    is_correct = prev_answer == q["correct_answer"]
+    if is_correct:
+        st.success("✓ Correct!")
+    else:
+        st.error(f"✗ Incorrect. Correct answer: **{q['correct_answer']}**")
+    st.divider()
 
 with st.form(key=f"form__{set_id}__{q_idx}", clear_on_submit=False):
     st.radio(
@@ -227,29 +297,55 @@ with st.form(key=f"form__{set_id}__{q_idx}", clear_on_submit=False):
         q["options"],
         index=default_index,
         key=choice_k,
+        disabled=(st.session_state.feedback_mode == "instant" and is_checked),
     )
 
-    c1, c2, c3 = st.columns([1, 1, 1])
-
-    prev_clicked = c1.form_submit_button("⬅️ Previous", use_container_width=True, disabled=(st.session_state.pos == 0))
-    next_clicked = c2.form_submit_button("Next ➡️", use_container_width=True)
-    finish_clicked = c3.form_submit_button("Finish ✅", use_container_width=True)
-
-if prev_clicked or next_clicked or finish_clicked:
-    st.session_state.answers[q_idx] = st.session_state.get(choice_k)
-
-if prev_clicked:
-    st.session_state.pos = max(0, st.session_state.pos - 1)
-    _rerun()
-
-if next_clicked:
-    if st.session_state.pos < len(st.session_state.order) - 1:
-        st.session_state.pos += 1
-        _rerun()
+    if st.session_state.feedback_mode == "instant":
+        # Instant feedback mode: Check Answer and Next Question buttons
+        c1, c2 = st.columns([1, 1])
+        check_clicked = c1.form_submit_button("✓ Check Answer", use_container_width=True, disabled=is_checked)
+        is_last_question = st.session_state.pos >= len(st.session_state.order) - 1
+        next_button_text = "Finish Quiz ✅" if is_last_question else "Next Question ➡️"
+        next_clicked = c2.form_submit_button(next_button_text, use_container_width=True, disabled=not is_checked)
     else:
+        # Long test mode: Previous, Next, Finish buttons
+        c1, c2, c3 = st.columns([1, 1, 1])
+        prev_clicked = c1.form_submit_button("⬅️ Previous", use_container_width=True, disabled=(st.session_state.pos == 0))
+        next_clicked = c2.form_submit_button("Next ➡️", use_container_width=True)
+        finish_clicked = c3.form_submit_button("Finish ✅", use_container_width=True)
+
+if st.session_state.feedback_mode == "instant":
+    # Handle instant feedback mode
+    if check_clicked:
+        current_answer = st.session_state.get(choice_k)
+        st.session_state.answers[q_idx] = current_answer
+        st.session_state.checked[q_idx] = True
+        _rerun()
+    
+    if next_clicked and is_checked:
+        if st.session_state.pos < len(st.session_state.order) - 1:
+            st.session_state.pos += 1
+            _rerun()
+        else:
+            st.session_state.finished = True
+            _rerun()
+else:
+    # Handle long test mode
+    if prev_clicked or next_clicked or finish_clicked:
+        st.session_state.answers[q_idx] = st.session_state.get(choice_k)
+
+    if prev_clicked:
+        st.session_state.pos = max(0, st.session_state.pos - 1)
+        _rerun()
+
+    if next_clicked:
+        if st.session_state.pos < len(st.session_state.order) - 1:
+            st.session_state.pos += 1
+            _rerun()
+        else:
+            st.session_state.finished = True
+            _rerun()
+
+    if finish_clicked:
         st.session_state.finished = True
         _rerun()
-
-if finish_clicked:
-    st.session_state.finished = True
-    _rerun()
